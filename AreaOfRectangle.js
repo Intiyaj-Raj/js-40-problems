@@ -13,13 +13,13 @@ function calcArea(length, breadth) {
     }
 }
 
-// calcArea(-10, 20);
-// calcArea(10, -20)
-// calcArea(10, "20")
-// calcArea(10, 20)
-// calcArea("10", "20")
+calcArea(-10, 20);
+calcArea(10, -20)
+calcArea(10, "20")
+calcArea(10, 20)
+calcArea("10", "20")
 
 calcArea(10, true)
 calcArea(10, false)
-calcArea(5,)
+calcArea(5)
 calcArea(5, NaN)

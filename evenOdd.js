@@ -39,7 +39,7 @@ else {
     console.log("odd");
 }
 
-let b = 4.223;
+b = 4.223;
 let c = parseInt(b)
 if (c % 2 == 0) {
     console.log(c + " is even")
@@ -47,3 +47,19 @@ if (c % 2 == 0) {
 else {
     console.log(c + "is odd")
 }
+
+
+/* 
+        Method 4
+
+*/
+
+function checkEvenOdd(n1) {
+    return n1 % 2 == 0 ? "even" : "odd"
+}
+
+console.log(checkEvenOdd(5))
+console.log(checkEvenOdd(532))
+console.log(checkEvenOdd(44))
+console.log(checkEvenOdd(45))
+console.log(checkEvenOdd(-4))
