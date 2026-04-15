@@ -1,17 +1,17 @@
-
 function findSmallest(n1, n2, n3) {
 
-    if (n1 <= n2 && n1 <= n3) {
-        return n1;
+    let a = Number(n1)
+    let b = Number(n2)
+    let c = Number(n3)
+
+    if (a <= b && a <= c) {
+        return a;
     }
-    else if (n2 <= n1 && n2 <= n3) {
-        return n2
+    else if (b <= a && b <= c) {
+        return b;
     }
-    else if (n3 <= n1 && n3 <= n2) {
-        return n3
-    }
-    else if (n1 == n2 == n3) {
-        return n1;
+    else {
+        return c;
     }
 }
 
@@ -19,6 +19,8 @@ console.log(findSmallest(3, 1, 6))
 console.log(findSmallest(-2, 1, 6))
 console.log(findSmallest(-6, -9, 1))
 console.log(findSmallest(1, 1, 1))
+console.log(findSmallest(2, 7, 2))
+console.log(findSmallest(13, "12", 3))
 
 
 
@@ -28,15 +30,15 @@ console.log("")
 
 // 2nd method 
 
-
 function findSmallest2(a, b, c) {
-    let smallestNum = a;
+    let smallestNum = Number(a);
 
-    if (a < smallestNum) {
-        smallestNum = a;
+    if (Number(b) < smallestNum) {
+        smallestNum = Number(b);
     }
-    else if (b < smallestNum) {
-        smallestNum = b
+
+    if (Number(c) < smallestNum) {
+        smallestNum = Number(c);
     }
 
     return smallestNum;
