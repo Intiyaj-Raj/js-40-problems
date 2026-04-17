@@ -35,12 +35,12 @@ clacFact(1)
 clacFact(0)
 
 //  ye condition hamare code logic ko break kar raha hai
-clacFact(-12)
-clacFact(1.5)
-clacFact(5.3)
-clacFact(5.7)
-clacFact("a")
-clacFact(true)
+// clacFact(-12)
+// clacFact(1.5)
+// clacFact(5.3)
+// clacFact(5.7)
+// clacFact("a")
+// clacFact(true)
 
 
 console.log("5! = " + usignRecursion(5))
