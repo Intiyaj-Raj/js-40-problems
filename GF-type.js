@@ -47,4 +47,4 @@ function typeText(text, callback, color = "\x1b[0m") {
             if (callback) callback();
         }
     }, 50);
-}
+} i
