@@ -51,8 +51,10 @@ arr.forEach((e) => {
                const user = {
                     name: "Imtiaz"
                 };
+                
+                // ❌ Error
                 user = {
                  name: "Ali" 
-                 }; // ❌ Error
+                 }; 
   
  */
